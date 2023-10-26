@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <Title>My Trying</Title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="images/poo.jpg">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Boss">
+        <meta name="description" content="This is where I learn HTML">
+        <meta name="author" content="Joe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="menu" style="">
+                <a href="#menu"><b>Menu</b></a>
+                <a id="important" href="#Boss"><b>bủh bủh</b></a>
+                <a href="#table"><b>Random Table</b></a>
+                <a href="#bottom"><b>Bottom of Page, I guess</b></a>
+                <form id="searchbar" style="float:right; margin-right: 16px;" target="_self" autocomplete="on"> 
+                    <!-- method="post" -->
+                    <!-- <label for="fname" style="color:white; height:100%;">Search</label> -->
+                    <input type="submit" value="Search" style="border-radius:10px; margin-right:-3px;">
+                    <input type="search" id="search" name="search" style=" border: 2px solid grey; border-radius:10px; margin-top:15px;" placeholder="pron...">
+                    
+                </form>
+        </div>
+
+        <div class="login" style="text-align:right; padding-right: 42px;">
+            <form id="signin" style="" autocomplete="on"> <!-- method="post"-->
+                
+                    <label for="userid">Username:</label>
+                    <input type="text" id="userid" name="userid"><br>
+                    <label for="email">or email, idk:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="pwd">Password, please:</label>
+                    <input type="password" id="pwd" name="pwd" size="20" maxlength="20" required><br>
+                
+                    <div style="text-align:center;">
+                        <!-- <input type="submit" value="Let me in!!!" style="margin:8px;"> -->
+                        <input type="button" value="Let me in!!!" onclick="alert('no')" style="margin: 8px;">
+                    </div>
+            </form>
+        </div>
+
+        <!-- <div>
+            <label for="addfile">Add a file:</label>
+            <input type="file" id="addfile" name="addfile">;<br>
+            <input type="submit" value="k"><br>
+        </div> -->
+
+        <div class="bighead" style="outline:8px solid black;">
+            <h1 id='h1' style="font-size:5vw; font-family:Brush Script MT; text-align:center;">This will be my first heading</h1><hr>
+            <script>
+                function myFunction(i){
+                if(i == 1){
+                    document.getElementById("h1").innerHTML = "dabadibadobablblblblblpeepeepoopoo";
+                    document.getElementById("h1").style.fontSize = "25px";
+                    document.getElementById("h1").style.textAlign = "center";
+                    document.getElementById("h1").style.color = "White";
+                    document.getElementById("h1").style.backgroundColor = "transparent";
+                }else if(i==2){
+                    document.getElementById("h1").innerHTML = "This is my first&trade; heading";
+                    document.getElementById("h1").style.fontSize = "60px";
+                    document.getElementById("h1").style.textAlign = "center";
+                    document.getElementById("h1").style.color = "Blue";
+                    document.getElementById("h1").style.backgroundColor = "transparent";
+                }else{
+                    document.getElementById("h1").innerHTML = "This will be my first heading";
+                    document.getElementById("h1").style.fontSize = "5vw";
+                    document.getElementById("h1").style.color = "Black";
+                }
+                }
+            </script>
+            <div style="text-align:center; padding-top: 8px;">
+                <button type="button" onclick="myFunction(1)" style="text-align:center;">bleh</button>
+                <button type="button" onclick="myFunction(2)" style="text-align:center;">Go back!</button>
+                <button type="button" onclick="alert('_(:3L<)_ sup')">Who, me?</button>
+                <button type="button" onclick="myFunction(0)" style="text-align:center;">Original >:(</button>
+            </div>
+            <br>
+        </div>
+        <!-- <hr> -->
+        
+        <div style="text-align:center;">
+            <br><br>
+            <!-- <p style="font-family:Times; text-align:center;"><i>Insert things to talk about here</i></p> -->
+            <textarea name="talk" id="talk" cols="30" rows="3" style="font-style:italic;" placeholder="Insert things to talk about here"></textarea>
+            <p style="font-size:200%;"><b>This is my first serious attempt at making a website!</b></p>
+        </div>
+
+        <div class="Song" style="text-align:center;">
+            <a href="https://youtu.be/7gYG95NG1YA?si=ITm1mmVbktATq213" target="_blank" style="font-size:200%;">This is a nice song</a><br>
+            <iframe width="887" height="499" src="https://www.youtube.com/embed/7gYG95NG1YA" name="test" title="I Secretly Love You | Piano &amp; Cello" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>Song name is <cite style="color:tomato">I Secretly Love You</cite> by Seycara.</p>
+            <!-- <a href="https://www.youtube.com/embed/I-QfPUz1es8" title="Imagine Dragons - Bad Liar" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen target="test">This song is good as well.</a> -->
+            <!-- <a href="https://www.linkedin.com/embed/in/thuy-ha-le/?" target="test" allowfullscreen>click here i guess</a> -->
+        </div>
+
+        <!-- _(:3L<)_ -->
+
+        <h2 id="lmao">This is my second, <mark>less important</mark> heading</h2>
+        <div>
+            <table id="table" style="margin-bottom: 16px;">
+                <caption style="font-family:'Times New Roman', Times, serif; padding:8px;"><b>PHÊ QUÉ Ò</b></caption>
+    <!-- <colgroup>
+        <col span="1" style="background-color:white">
+        <col span="2" style="background-color:lightyellow">
+    </colgroup> -->
+                <tr>
+                    <!-- th colspan="2">Name</th> -->
+                    <th></th>
+                    <th style="width:30%;">nửa bủuh</th>
+                    <th>hdhsdjadha</th>
+                </tr>
+                <tr>
+                    <th>bruhhhhhhh</th>
+                    <td>Sen</td>
+                    <td>bruh</td>
+                </tr>
+                <tr style="height:100px">
+                    <th>balblaburghhhhh</th>                  
+                    <td>bruh bruh</td>
+                    <td>bruh bruh bruh</td>
+                </tr>
+                <tr>
+                    <th>text</th>
+                    <td>text</td>
+                    <td>text</td>
+                </tr>
+            </table>
+        </div>
+
+        <div style="display:inline-block; width:100%;">
+            <div class="huh0" style="text-align:center; font-size:large">
+                <p>wut</p>
+                <a href="#h1">anyway, back to first heading ever.</a>
+                <blockquote cite="https://www.youtube.com/watch?v=7gYG95NG1YA&list=RD7gYG95NG1YA&start_radio=1">tang tang tang tang</blockquote>
+                <textarea name="typer" id="typer" cols="30" rows="8">Here, a place to type something. :)</textarea>
+            </div>
+            
+            <div class="Minh">
+                <section style="font-family:'Times New Roman', Times, serif; font-size:large; color:black">
+                    <p>My favourite foods &#128511;</p>
+                    <ul style="list-style-type: disc;">
+                        <li>Banh trang nuong</li>
+                        <li>Iced Milo</li>
+                        <li>Any food I eat with <a id="her" href="#Boss" style="display:inline-block; padding:0px;">pepeepepepopo</a></li>
+                    </ul>
+
+                    <form>
+                        <fieldset>
+                            <legend>Fooooood</legend>
+                        <label for="favfood">Which one do you think is the tastiest?</label>
+                        <select name="favfood" id="favfood">
+                            <option value="Banh trang nuong">Banh trang nuong</option>
+                            <option value="Iced Milo">Iced Milo</option>
+                            <option value="haiz">haiz...</option>
+                        </select>
+                        <input type="button" value="it's pretty good!" onclick="alert('yeah it isssss, woahhhhhh! :O')">
+                        </fieldset>
+                    </form>
+
+                    <div style="text-align: center; border: 1px solid black; margin: 8px;">
+                        <p><b>cool slider thing</b></p>
+                        <form oninput="x.value=parseInt(slider.value)">
+                            0 <input type="range" id="silder" name="slider" min="0" max="100" value="50"> 100 <br>
+                            <p>you have stage <b><output name="x" for="slider"></output></b> cancel</p>
+                        </form>
+                    </div>
+                    
+                </section>
+            </div>
+
+                <!-- problem up there (owo)/-->
+                <!-- this is 3 boxes -->
+            <div class="huh1" style="margin-bottom:50px;">
+                <p style="font-family:'Times New Roman', Times, serif; font-size:large; color:black">Top 3 things:</p>
+                <ol type="1">
+                    <li>( ͡° ͜ʖ ͡°)</li>
+                    <li>Tra tac</li>
+                    <li>Grilled Cheese</li>
+                </ol>
+
+                <form>
+                    <input list="things" name="things">
+                    <datalist id="things">
+                        <option value="Boss">Boss</option>
+                        <option value="Tra tac">
+                        <option value="world dominana">
+                    </datalist>
+                    <input type="button" value="No touchey!" onclick="alert('y u touch D:<')">
+                </form>
+
+                <dl>
+                    <dt>DT</dt>
+                    <dd>--Desription Term (Double Time :))</dd>
+                    <dt>DL</dt>
+                    <dd>--Description List</dd>
+                </dl>
+            </div>
+        </div>
+
+        <section style="text-align:center;">
+            <h2>Random stuff</h2>
+            <p>to sicc ducc, press <kbd>P+A</kbd></p>
+            <p>c-c-code??? <code style="font-size: 80%;">i-- = i - 1;</code></p>
+            <p>sample</p>
+            <samp>sample</samp>
+            <p>some variables <var>x^2</var> + 2<var>x</var> + 1 = <var>m a t h</var></p>
+            <p style="font-variant:small-caps;">hats (get it? cuz small-caps)</p>
+        </section>
+
+        <div style="text-align:center;">
+            <canvas id="mycan" style="border: 1px solid black; background-color:red;" width="300" height="150">
+                <!-- <script>
+                    var c = document.getElementById("mycan");
+                    var ctx = c.getContext("2d");
+                    var ctx2 = c.getContext("2d");
+                    ctx.moveTo(0,0);
+                    ctx.lineTo(300,200);
+                    ctx.lineTo(69,69);
+                    ctx.stroke();
+                    ctx2.beginPath();
+                    ctx2.arc(150,100,100,0,2*Math.PI); 
+                    // (startpointX, startpointY, BanKinh, startAngle, endAngle)
+                    ctx2.stroke();
+                </script> -->
+                <script>
+                    var i = document.getElementById("mycan");
+                    var flag = i.getContext("2d");
+                    flag.beginPath();
+                    flag.moveTo(150,10);
+                    flag.lineTo(170,50);
+                    flag.lineTo(225,50);
+                    flag.lineTo(185,85);
+                    flag.lineTo(200,135);
+                    flag.lineTo(150,110);
+                    flag.lineTo(100,135);
+                    flag.lineTo(115,85);
+                    flag.lineTo(75,50);
+                    flag.lineTo(130,50);
+                    flag.lineTo(150,10);
+                    flag.closePath();
+
+                    flag.fillStyle="yellow";
+                    flag.fill();
+                </script>
+            </canvas>
+
+            <svg width="300" height="150" style="">
+                <polygon points="150,10 200,135 75,50 225,50 100,135" style="fill:yellow; stroke:black;"/>
+            </svg>
+        </div>
+        
+        <noscript>heh</noscript>
+
+        <footer>
+            <address id="bottom">
+                This was written by VNMk.<br>
+                The first step of my resolve to become a better person.<br>
+            </address>
+        </footer>
+
+        <nav>
+            <a href="https://youtube.com/" target="_blank">Youtube</a> | 
+            <a href="https://twitch.tv/" target="_blank">Twitch</a>
+        </nav>
+    </body>
+</html>
+
+<!-- It is best practice to use relative file paths (if possible). -->
